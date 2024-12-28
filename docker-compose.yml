@@ -1,0 +1,10 @@
+services:
+  2024-game-third:
+    build: .
+    ports:
+      - "8083:8080"
+  
+  2024-game-fourth:
+    build: .
+    ports:
+      - "8084:8080"
